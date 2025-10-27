@@ -50,3 +50,13 @@ add_executable(relu src/relu.cu)
 add_executable(leaky_relu src/leaky_relu.cu)
 
 add_executable(rainbow_table src/rainbow_table.cu)
+
+add_executable(matrix_copy src/matrix_copy.cu)
+
+add_executable(count_elements src/count_elements.cu)
+
+add_executable(count_2d src/count_2d_elements.cu)
+
+add_executable(swiglu src/swish_gated.cu)
+
+add_executable(sigmoid_linear_unit src/sigmoid_linear_unit.cu)
