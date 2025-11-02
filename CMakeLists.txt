@@ -64,3 +64,5 @@ add_executable(sigmoid_linear_unit src/sigmoid_linear_unit.cu)
 add_executable(reduction src/reduction.cu)
 
 add_executable(delivery src/delivery.cpp)
+
+add_executable(error src/dc.cpp)
