@@ -8,7 +8,7 @@ message(STATUS "Value of MY_VARIABLE: $ENV{MY_VARIABLE}")
 set(CMAKE_CUDA_ARCHITECTURES "75;80;86;87;89;90;100;110")
 set(CMAKE_CUDA_COMPILER /usr/local/cuda-13.0/bin/nvcc)
 
-project(cuda-learn LANGUAGES C CXX CUDA)
+project(leet-gpu LANGUAGES C CXX CUDA)
 
 find_package(CUDAToolkit REQUIRED)
 
@@ -60,3 +60,7 @@ add_executable(count_2d src/count_2d_elements.cu)
 add_executable(swiglu src/swish_gated.cu)
 
 add_executable(sigmoid_linear_unit src/sigmoid_linear_unit.cu)
+
+add_executable(reduction src/reduction.cu)
+
+add_executable(delivery src/delivery.cpp)
