@@ -6,3 +6,5 @@ set(CMAKE_CUDA_COMPILER /usr/local/cuda-13.0/bin/nvcc)
 
 
 add_executable(tanh src/tanh.cu)
+
+add_executable(conv_1d src/conv_1d.cu)
